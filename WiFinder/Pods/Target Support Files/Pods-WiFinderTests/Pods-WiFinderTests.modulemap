@@ -1,0 +1,6 @@
+module Pods_WiFinderTests {
+  umbrella header "Pods-WiFinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

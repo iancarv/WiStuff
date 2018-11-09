@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB6AFF300A1672ACE480556 /* Pods_WiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAC4DB3DCBDBB74F63516CD /* Pods_WiFinder.framework */; };
+		7B07CDF89DB5484EC0915586 /* libPods-WiFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1352007B65AE55C55D03AAF /* libPods-WiFinderTests.a */; };
+		8924CE972193BB9C00D6B4A2 /* ApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924CE962193BB9C00D6B4A2 /* ApiTests.swift */; };
+		8924CE992193BCB600D6B4A2 /* QueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924CE982193BCB600D6B4A2 /* QueryRequest.swift */; };
+		8924CE9B2193C35E00D6B4A2 /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924CE9A2193C35E00D6B4A2 /* ApiResult.swift */; };
+		8924CE9D2193C48500D6B4A2 /* ApiMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924CE9C2193C48500D6B4A2 /* ApiMock.swift */; };
+		8924CEA12193D6B300D6B4A2 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924CEA02193D6B300D6B4A2 /* Mocks.swift */; };
+		8924CEA32194037B00D6B4A2 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924CEA22194037B00D6B4A2 /* SearchViewModel.swift */; };
+		892E85A62194D8C400177CAC /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892E85A52194D8C400177CAC /* MediaCell.swift */; };
+		8998F8C021939DEA00518F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8BF21939DEA00518F7E /* AppDelegate.swift */; };
+		8998F8C221939DEA00518F7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8C121939DEA00518F7E /* ViewController.swift */; };
+		8998F8C521939DEA00518F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8998F8C321939DEA00518F7E /* Main.storyboard */; };
+		8998F8C721939DEA00518F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8998F8C621939DEA00518F7E /* Assets.xcassets */; };
+		8998F8CA21939DEA00518F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8998F8C821939DEA00518F7E /* LaunchScreen.storyboard */; };
+		8998F8E621939FDB00518F7E /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8E521939FDB00518F7E /* Query.swift */; };
+		8998F8E821939FE500518F7E /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8E721939FE500518F7E /* Media.swift */; };
+		8998F8EA2193A24800518F7E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8E92193A24800518F7E /* Movie.swift */; };
+		8998F8EC2193A25600518F7E /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8EB2193A25600518F7E /* TvShow.swift */; };
+		8998F8EE2193A25F00518F7E /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8ED2193A25F00518F7E /* Music.swift */; };
+		8998F8F22193A92600518F7E /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8F12193A92600518F7E /* ApiData.swift */; };
+		8998F8F42193AC8500518F7E /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8F32193AC8500518F7E /* ModelTests.swift */; };
+		8998F8F72193B2D300518F7E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8F62193B2D300518F7E /* ApiClient.swift */; };
+		8998F8F92193B42D00518F7E /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998F8F82193B42D00518F7E /* ApiRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8998F8D121939DEA00518F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8998F8B421939DEA00518F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8998F8BB21939DEA00518F7E;
+			remoteInfo = WiFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B8BEE5295D426A034F2F35 /* Pods-WiFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinderTests/Pods-WiFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82AE30EF97CD61D4081CA93D /* Pods-WiFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinderTests/Pods-WiFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		8924CE962193BB9C00D6B4A2 /* ApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTests.swift; sourceTree = "<group>"; };
+		8924CE982193BCB600D6B4A2 /* QueryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryRequest.swift; sourceTree = "<group>"; };
+		8924CE9A2193C35E00D6B4A2 /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		8924CE9C2193C48500D6B4A2 /* ApiMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMock.swift; sourceTree = "<group>"; };
+		8924CEA02193D6B300D6B4A2 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		8924CEA22194037B00D6B4A2 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		892E85A52194D8C400177CAC /* MediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
+		8998F8BC21939DEA00518F7E /* WiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8998F8BF21939DEA00518F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8998F8C121939DEA00518F7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8998F8C421939DEA00518F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8998F8C621939DEA00518F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8998F8C921939DEA00518F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8998F8CB21939DEA00518F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8998F8D021939DEA00518F7E /* WiFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8998F8D621939DEA00518F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8998F8E521939FDB00518F7E /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		8998F8E721939FE500518F7E /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		8998F8E92193A24800518F7E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8998F8EB2193A25600518F7E /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
+		8998F8ED2193A25F00518F7E /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		8998F8F12193A92600518F7E /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		8998F8F32193AC8500518F7E /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		8998F8F62193B2D300518F7E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		8998F8F82193B42D00518F7E /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		A5F82013E1FA0DED67F2A4E7 /* Pods-WiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.release.xcconfig"; sourceTree = "<group>"; };
+		CDAC4DB3DCBDBB74F63516CD /* Pods_WiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2D711DAC4C8737782FE16D /* Pods-WiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		F1352007B65AE55C55D03AAF /* libPods-WiFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WiFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8998F8B921939DEA00518F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB6AFF300A1672ACE480556 /* Pods_WiFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8998F8CD21939DEA00518F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B07CDF89DB5484EC0915586 /* libPods-WiFinderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8998F8B321939DE900518F7E = {
+			isa = PBXGroup;
+			children = (
+				8998F8BE21939DEA00518F7E /* WiFinder */,
+				8998F8D321939DEA00518F7E /* WiFinderTests */,
+				8998F8BD21939DEA00518F7E /* Products */,
+				D730E05DEB900A60FC83CFC8 /* Pods */,
+				E17564AB06A816175874D52C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8998F8BD21939DEA00518F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8BC21939DEA00518F7E /* WiFinder.app */,
+				8998F8D021939DEA00518F7E /* WiFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8998F8BE21939DEA00518F7E /* WiFinder */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8F52193B1FA00518F7E /* Service */,
+				8998F8E321939F0900518F7E /* Assets */,
+				8998F8E121939EC500518F7E /* ViewModel */,
+				8998F8E021939E2D00518F7E /* View */,
+				8998F8DF21939E1200518F7E /* Model */,
+				8998F8BF21939DEA00518F7E /* AppDelegate.swift */,
+				8998F8CB21939DEA00518F7E /* Info.plist */,
+			);
+			path = WiFinder;
+			sourceTree = "<group>";
+		};
+		8998F8D321939DEA00518F7E /* WiFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8924CE9C2193C48500D6B4A2 /* ApiMock.swift */,
+				8924CE962193BB9C00D6B4A2 /* ApiTests.swift */,
+				8998F8F32193AC8500518F7E /* ModelTests.swift */,
+				8998F8D621939DEA00518F7E /* Info.plist */,
+				8924CEA02193D6B300D6B4A2 /* Mocks.swift */,
+			);
+			path = WiFinderTests;
+			sourceTree = "<group>";
+		};
+		8998F8DF21939E1200518F7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8F12193A92600518F7E /* ApiData.swift */,
+				8924CE9A2193C35E00D6B4A2 /* ApiResult.swift */,
+				8998F8E521939FDB00518F7E /* Query.swift */,
+				8998F8E721939FE500518F7E /* Media.swift */,
+				8998F8E92193A24800518F7E /* Movie.swift */,
+				8998F8EB2193A25600518F7E /* TvShow.swift */,
+				8998F8ED2193A25F00518F7E /* Music.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8998F8E021939E2D00518F7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8C121939DEA00518F7E /* ViewController.swift */,
+				8998F8E221939EE100518F7E /* Storyboards */,
+				892E85A52194D8C400177CAC /* MediaCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8998F8E121939EC500518F7E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8924CEA22194037B00D6B4A2 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8998F8E221939EE100518F7E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8C321939DEA00518F7E /* Main.storyboard */,
+				8998F8C821939DEA00518F7E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8998F8E321939F0900518F7E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8E421939F3C00518F7E /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8998F8E421939F3C00518F7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8C621939DEA00518F7E /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8998F8F52193B1FA00518F7E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8998F8F62193B2D300518F7E /* ApiClient.swift */,
+				8998F8F82193B42D00518F7E /* ApiRequest.swift */,
+				8924CE982193BCB600D6B4A2 /* QueryRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D730E05DEB900A60FC83CFC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D711DAC4C8737782FE16D /* Pods-WiFinder.debug.xcconfig */,
+				A5F82013E1FA0DED67F2A4E7 /* Pods-WiFinder.release.xcconfig */,
+				12B8BEE5295D426A034F2F35 /* Pods-WiFinderTests.debug.xcconfig */,
+				82AE30EF97CD61D4081CA93D /* Pods-WiFinderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E17564AB06A816175874D52C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC4DB3DCBDBB74F63516CD /* Pods_WiFinder.framework */,
+				F1352007B65AE55C55D03AAF /* libPods-WiFinderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8998F8BB21939DEA00518F7E /* WiFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8998F8D921939DEA00518F7E /* Build configuration list for PBXNativeTarget "WiFinder" */;
+			buildPhases = (
+				E91B928B16177573410DE337 /* [CP] Check Pods Manifest.lock */,
+				8998F8B821939DEA00518F7E /* Sources */,
+				8998F8B921939DEA00518F7E /* Frameworks */,
+				8998F8BA21939DEA00518F7E /* Resources */,
+				1FE0DC333A393A0904FE66DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFinder;
+			productName = WiFinder;
+			productReference = 8998F8BC21939DEA00518F7E /* WiFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8998F8CF21939DEA00518F7E /* WiFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8998F8DC21939DEA00518F7E /* Build configuration list for PBXNativeTarget "WiFinderTests" */;
+			buildPhases = (
+				FB64205C9EDC137486F970A1 /* [CP] Check Pods Manifest.lock */,
+				8998F8CC21939DEA00518F7E /* Sources */,
+				8998F8CD21939DEA00518F7E /* Frameworks */,
+				8998F8CE21939DEA00518F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8998F8D221939DEA00518F7E /* PBXTargetDependency */,
+			);
+			name = WiFinderTests;
+			productName = WiFinderTests;
+			productReference = 8998F8D021939DEA00518F7E /* WiFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8998F8B421939DEA00518F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ian;
+				TargetAttributes = {
+					8998F8BB21939DEA00518F7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8998F8CF21939DEA00518F7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8998F8BB21939DEA00518F7E;
+					};
+				};
+			};
+			buildConfigurationList = 8998F8B721939DEA00518F7E /* Build configuration list for PBXProject "WiFinder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8998F8B321939DE900518F7E;
+			productRefGroup = 8998F8BD21939DEA00518F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8998F8BB21939DEA00518F7E /* WiFinder */,
+				8998F8CF21939DEA00518F7E /* WiFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8998F8BA21939DEA00518F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8998F8CA21939DEA00518F7E /* LaunchScreen.storyboard in Resources */,
+				8998F8C721939DEA00518F7E /* Assets.xcassets in Resources */,
+				8998F8C521939DEA00518F7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8998F8CE21939DEA00518F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FE0DC333A393A0904FE66DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift-framework/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftUtilities/RxSwiftUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiFinder/Pods-WiFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91B928B16177573410DE337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB64205C9EDC137486F970A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8998F8B821939DEA00518F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892E85A62194D8C400177CAC /* MediaCell.swift in Sources */,
+				8998F8EC2193A25600518F7E /* TvShow.swift in Sources */,
+				8924CE992193BCB600D6B4A2 /* QueryRequest.swift in Sources */,
+				8998F8EA2193A24800518F7E /* Movie.swift in Sources */,
+				8924CE9B2193C35E00D6B4A2 /* ApiResult.swift in Sources */,
+				8998F8F72193B2D300518F7E /* ApiClient.swift in Sources */,
+				8924CEA32194037B00D6B4A2 /* SearchViewModel.swift in Sources */,
+				8998F8C221939DEA00518F7E /* ViewController.swift in Sources */,
+				8998F8E621939FDB00518F7E /* Query.swift in Sources */,
+				8998F8EE2193A25F00518F7E /* Music.swift in Sources */,
+				8998F8F22193A92600518F7E /* ApiData.swift in Sources */,
+				8998F8E821939FE500518F7E /* Media.swift in Sources */,
+				8998F8F92193B42D00518F7E /* ApiRequest.swift in Sources */,
+				8998F8C021939DEA00518F7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8998F8CC21939DEA00518F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8924CE972193BB9C00D6B4A2 /* ApiTests.swift in Sources */,
+				8998F8F42193AC8500518F7E /* ModelTests.swift in Sources */,
+				8924CE9D2193C48500D6B4A2 /* ApiMock.swift in Sources */,
+				8924CEA12193D6B300D6B4A2 /* Mocks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8998F8D221939DEA00518F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8998F8BB21939DEA00518F7E /* WiFinder */;
+			targetProxy = 8998F8D121939DEA00518F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8998F8C321939DEA00518F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8998F8C421939DEA00518F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8998F8C821939DEA00518F7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8998F8C921939DEA00518F7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8998F8D721939DEA00518F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8998F8D821939DEA00518F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8998F8DA21939DEA00518F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2D711DAC4C8737782FE16D /* Pods-WiFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H975WMNA2;
+				INFOPLIST_FILE = WiFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ian.WiFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8998F8DB21939DEA00518F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F82013E1FA0DED67F2A4E7 /* Pods-WiFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H975WMNA2;
+				INFOPLIST_FILE = WiFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ian.WiFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8998F8DD21939DEA00518F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B8BEE5295D426A034F2F35 /* Pods-WiFinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H975WMNA2;
+				INFOPLIST_FILE = WiFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ian.WiFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFinder.app/WiFinder";
+			};
+			name = Debug;
+		};
+		8998F8DE21939DEA00518F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AE30EF97CD61D4081CA93D /* Pods-WiFinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H975WMNA2;
+				INFOPLIST_FILE = WiFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ian.WiFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFinder.app/WiFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8998F8B721939DEA00518F7E /* Build configuration list for PBXProject "WiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8998F8D721939DEA00518F7E /* Debug */,
+				8998F8D821939DEA00518F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8998F8D921939DEA00518F7E /* Build configuration list for PBXNativeTarget "WiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8998F8DA21939DEA00518F7E /* Debug */,
+				8998F8DB21939DEA00518F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8998F8DC21939DEA00518F7E /* Build configuration list for PBXNativeTarget "WiFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8998F8DD21939DEA00518F7E /* Debug */,
+				8998F8DE21939DEA00518F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8998F8B421939DEA00518F7E /* Project object */;
+}

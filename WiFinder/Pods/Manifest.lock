@@ -1,0 +1,43 @@
+PODS:
+  - RxBlocking (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+  - RxSwiftUtilities (2.0.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxTest (4.3.1):
+    - RxSwift (~> 4.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - RxBlocking (~> 4.0)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - RxSwiftUtilities
+  - RxTest (~> 4.0)
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxBlocking
+    - RxCocoa
+    - RxSwift
+    - RxSwiftUtilities
+    - RxTest
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  RxBlocking: 64c051285261ca2339481e91b5f70eb06b03660a
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  RxSwiftUtilities: 0edb01ef16c527c10fb352485b62cbd951e4a04d
+  RxTest: ea97a208826906f3904c0debdd09575ebcbfe216
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 1fe897cfb250817fcd6423c49779896a446a7de6
+
+COCOAPODS: 1.5.3
