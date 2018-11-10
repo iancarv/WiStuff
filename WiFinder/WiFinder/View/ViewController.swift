@@ -93,7 +93,7 @@ class ViewController: UIViewController {
             }.disposed(by: disposeBag)
         
         tableView.rx.modelSelected(MediaItem.self)
-            .subscribe(onNext: { model in
+            .subscribe(onNext: { [unowned self]  model in
                 print(model.previewUrl)
                 guard let videoURL = URL(string: model.previewUrl) else { return }
                 let player = AVPlayer(url: videoURL)

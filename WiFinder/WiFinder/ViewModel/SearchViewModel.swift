@@ -47,7 +47,7 @@ class SearchViewMovel {
         
 
         let searchResult = Observable.combineLatest(searchQuery.asObservable(), searchScope.asObservable())
-            .flatMapLatest { (request, mediaType: MediaType) -> Observable<[MediaItem]> in
+            .flatMapLatest { [unowned self](request, mediaType: MediaType) -> Observable<[MediaItem]> in
                 let result = self.apiClient
                     .send(apiRequest: request)
                     .trackActivity(self.loadingIndicator)

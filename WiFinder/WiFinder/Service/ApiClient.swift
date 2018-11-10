@@ -13,7 +13,7 @@ class ApiClient {
     private let baseURL = URL(string: "https://itunes.apple.com/search")!
     
     func send(apiRequest: ApiRequest) -> Observable<ApiResult> {
-        return Observable<ApiResult>.create { observer in
+        return Observable<ApiResult>.create { [unowned self] observer in
             let request = apiRequest.request(with: self.baseURL)
             let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
                 do {
