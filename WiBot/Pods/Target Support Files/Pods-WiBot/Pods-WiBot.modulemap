@@ -1,0 +1,6 @@
+framework module Pods_WiBot {
+  umbrella header "Pods-WiBot-umbrella.h"
+
+  export *
+  module * { export * }
+}
